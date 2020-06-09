@@ -1,0 +1,14 @@
+{
+  "name": "peerdatalab",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server",
+    "config"
+  ],
+  "scripts": {
+    "client": "yarn workspace @peerdatalab/client start",
+    "server": "yarn workspace @peerdatalab/server start"
+  }
+}
